@@ -1,0 +1,39 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+.eggs/
+build/
+dist/
+sdist/
+wheels/
+.Python
+env/
+venv/
+.venv/
+*.manifest
+
+# --- Testing / coverage ---
+.pytest_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+.cache
+.mypy_cache/
+.ruff_cache/
+
+# --- Editors / OS ---
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
+# --- SkillAudit artifacts ---
+*.sarif
+report.json
+.skillaudit-cache/
