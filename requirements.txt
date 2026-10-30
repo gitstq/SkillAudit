@@ -1,0 +1,8 @@
+# SkillAudit intentionally depends on nothing at runtime.
+#
+# This file exists only so that dependency scanners, security bots and CI
+# templates that expect a requirements.txt do not fail. Leave it empty.
+#
+# - No third-party packages are imported anywhere under src/skillaudit/.
+# - The YAML subset parser (skillaudit/yamlmini.py) is written from scratch.
+# - Packaging tooling lives in the optional "dev" extra, see pyproject.toml.
